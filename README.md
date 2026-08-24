@@ -15,3 +15,4 @@
 
 > [!NOTE]
 > Don't expect the scripts to be good. They're just scripts that I will write to learn the concepts needed for luau. If I become good enough to make a game I'll make a separate repo where it has the stuff for the game completely separate from this repo
+> Also don't click the master branch. It's useless right now and I'm too lazy to delete it
