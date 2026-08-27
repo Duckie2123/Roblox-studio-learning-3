@@ -2,7 +2,7 @@ local baseplate = game.Workspace.Baseplate
 local tripleT = game.Workspace.tripleT
 local counter3 = 1
 
-coroutine.wrap(function() --how to run loops at once (use coroutine)
+coroutine.wrap(function() --how to run loops at once (use coroutine or task.spawn)
     for counter = 1, 10, 2 do
         if counter == 3 then
             print("Skip this iteration")

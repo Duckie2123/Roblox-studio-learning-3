@@ -1,4 +1,4 @@
-function addition (a,b,c)
+local function addition (a,b,c)
     if a + b == c then
 	    print("This is true")
     else
@@ -8,7 +8,7 @@ end
 
 
 
-function baseplateColor()
+local function baseplateColor()
     if game.Workspace.Baseplate.Color == Color3.fromRGB(98, 94, 98) then
 	    game.Workspace.Baseplate.Color = Color3.fromRGB(231, 138, 231)
 	    print("Changed color of baseplate thing")
@@ -20,7 +20,7 @@ function baseplateColor()
     end --elseif is the only different part
 end
 
-function partSize()
+local function partSize()
     if  game.Workspace.Part.Size ~= Vector3.new(12,5,23) then
         game.Workspace.Part.Size = Vector3.new(12,5,23)
         print("Changed the size of part to make it look like that")
