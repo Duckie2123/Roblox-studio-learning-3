@@ -8,7 +8,7 @@ killBrick.Touched:Connect(function(otherPart)
         if killBrickTouched == false then
             killBrickTouched = true
             humanoid.Health -= 10
-            task.wait(1.5)
+            task.wait(0.5)
             killBrickTouched = false
         end --loses 10 health when touching the brick
     end
